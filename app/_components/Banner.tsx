@@ -62,8 +62,15 @@ const Banner = () => {
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
-                        Hire Me
+                        Let&apos;s Talk
                     </Button>
+
+                    <div className="flex items-center gap-2 mt-3">
+                        <span className="size-3 rounded-full bg-white"></span>
+                        <span className="text-sm text-muted-foreground">
+                            Available for full-time opportunities
+                        </span>
+                    </div>
                 </div>
 
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
