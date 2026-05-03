@@ -7,10 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "svgr:icons": "svgr --title-prop --no-dimensions --typescript -d components/icons -- components/icons/svgs",
-    "build:cf": "opennextjs-cloudflare",
-    "deploy": "opennextjs-cloudflare && wrangler deploy",
-    "preview": "opennextjs-cloudflare && wrangler dev"
+    "svgr:icons": "svgr --title-prop --no-dimensions --typescript -d components/icons -- components/icons/svgs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -21,9 +18,9 @@
     "html-react-parser": "^5.2.3",
     "lenis": "^1.1.16",
     "lucide-react": "^0.460.0",
-    "next": "^16.2.4",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "next": "15.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icon-cloud": "^4.1.7",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
