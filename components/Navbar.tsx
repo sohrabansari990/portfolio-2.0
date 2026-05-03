@@ -1,7 +1,7 @@
 'use client';
 
 import { cn } from '@/lib/utils';
-import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
+import { useEffect, useRef, useState, useMemo } from 'react';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -185,6 +185,7 @@ const Navbar = () => {
     }, []);
 
     // QR striped-fill hover — direct DOM, no React state
+    /*
     const handleQrEnter = useCallback(() => {
         if (!qrRef.current) return;
         let p = 100;
@@ -208,6 +209,7 @@ const Navbar = () => {
         };
         requestAnimationFrame(run);
     }, []);
+    */
 
     return (
         <>

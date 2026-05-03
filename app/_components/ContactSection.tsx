@@ -46,7 +46,7 @@ const ContactSection = () => {
     let discs: any[] = [];
     let lines: any[] = [];
     let particles: any[] = [];
-    let render = { width: 0, height: 0, dpi: 1 };
+    const render = { width: 0, height: 0, dpi: 1 };
     let startDisc = { x: 0, y: 0, w: 0, h: 0 };
     let endDisc = { x: 0, y: 0, w: 0, h: 0 };
 
