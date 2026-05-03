@@ -233,7 +233,7 @@ const BannerContent = ({ isTear }: { isTear?: boolean }) => {
                         GENERAL_INFO.emailSubject
                     )}&body=${encodeURIComponent(GENERAL_INFO.emailBody)}`}
                     variant="primary"
-                    className="mt-9 banner-button slide-up-and-fade"
+                    className="mt-9 banner-button slide-up-and-fade hover:text-black"
                     style={isTear ? { pointerEvents: 'none' } : undefined}
                     tabIndex={isTear ? -1 : 0}
                 >

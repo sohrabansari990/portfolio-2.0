@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import React from 'react';
 import Image from 'next/image';
+import Button from '@/components/Button';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -105,6 +106,11 @@ const AboutMe = () => {
                                     The goal is simple: build systems people can
                                     actually use.
                                 </p>
+                            </div>
+                            <div className="mt-8 slide-up-and-fade">
+                                <Button as="link" href="/Sohrab_Alefi_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-black">
+                                    Download Resume
+                                </Button>
                             </div>
                         </div>
                     </div>

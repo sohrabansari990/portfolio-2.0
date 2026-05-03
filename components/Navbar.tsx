@@ -696,7 +696,7 @@ const Navbar = () => {
                         className={cn(
                             'inline-block w-3/5 h-0.5 bg-foreground rounded-full absolute left-1/2 -translate-x-1/2 top-1/2 duration-300 -translate-y-[5px] ',
                             {
-                                'rotate-45 -translate-y-1/2 bg-background': isMenuOpen,
+                                'rotate-45 -translate-y-1/2': isMenuOpen,
                                 'md:group-hover:rotate-12': !isMenuOpen,
                             },
                         )}
@@ -705,7 +705,7 @@ const Navbar = () => {
                         className={cn(
                             'inline-block w-3/5 h-0.5 bg-foreground rounded-full absolute left-1/2 -translate-x-1/2 top-1/2 duration-300 translate-y-[5px] ',
                             {
-                                '-rotate-45 -translate-y-1/2 bg-background': isMenuOpen,
+                                '-rotate-45 -translate-y-1/2': isMenuOpen,
                                 'md:group-hover:-rotate-12': !isMenuOpen,
                             },
                         )}
@@ -789,6 +789,22 @@ const Navbar = () => {
                                         </button>
                                     </li>
                                 ))}
+                                <li>
+                                    <a
+                                        href="/Sohrab_Alefi_Resume.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="group text-xl md:text-2xl flex items-center gap-4 hover:text-[#006dff] transition-colors font-medium"
+                                    >
+                                        <span className={cn('size-4 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-[200%] transition-all duration-300', 'bg-pink-500 text-white')}>
+                                            <MoveUpRight
+                                                size={10}
+                                                className="scale-0 group-hover:scale-100 transition-all duration-300 text-white"
+                                            />
+                                        </span>
+                                        Resume
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
