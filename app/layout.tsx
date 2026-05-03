@@ -27,6 +27,7 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL('https://sohrabalefi.me'),
     title: 'Sohrab Alefi | Full-Stack Developer & IT Instructor',
     description:
         'Official portfolio of Sohrab Alefi (also known as Sohrab Ansari). Full-stack developer, IT instructor with 2.5+ years of experience, AI automation expert, and startup co-founder.',
