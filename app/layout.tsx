@@ -79,10 +79,6 @@ export const metadata: Metadata = {
         },
     },
     manifest: '/manifest.json',
-    icons: {
-        icon: '/sohrab alefi logo.png',
-        apple: '/sohrab alefi logo.png',
-    },
 };
 
 export default function RootLayout({

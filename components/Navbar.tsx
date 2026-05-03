@@ -567,7 +567,7 @@ const Navbar = () => {
                     {/* ── Logo + scrolling console ──────────────────── */}
                     <Link href="/#banner" className="logo-cell" aria-label="Home">
                         <Image
-                            src="/sohrab alefi logo.png"
+                            src="/sohrab-alefi-logo-new.png"
                             alt="Logo"
                             width={64}
                             height={64}
@@ -677,7 +677,7 @@ const Navbar = () => {
                 {/* Logo left */}
                 <Link href="/#banner" className="block relative z-[51] pointer-events-auto" aria-label="Home" onClick={() => setIsMenuOpen(false)}>
                     <Image
-                        src="/sohrab alefi logo.png"
+                        src="/sohrab-alefi-logo-new.png"
                         alt="Logo"
                         width={48}
                         height={48}
