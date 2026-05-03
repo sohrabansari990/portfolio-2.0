@@ -1,0 +1,21 @@
+{
+  "name": "Sohrab Alefi Portfolio",
+  "short_name": "Sohrab Portfolio",
+  "description": "Full-Stack Developer & IT Instructor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0077ff",
+  "icons": [
+    {
+      "src": "/sohrab alefi.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/sohrab alefi.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

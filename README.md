@@ -1,39 +1,46 @@
-# 🚀 My Portfolio Website
+# 🚀 Sohrab Alefi | Full-Stack Portfolio
 
-![image](https://github.com/user-attachments/assets/ade45c4b-b2cb-46cb-b8a6-31cad3bd0c5a)
+![Sohrab Alefi Portfolio](/public/portfolio-preview.png)
 
-[Checkout the initial design here](https://www.figma.com/design/56hODoGFDzZfZduBPfQeBg/New-Portfolio?node-id=18-1550&t=73vRMGTW0gspTSND-1)
+A high-fidelity, interactive portfolio built with **Next.js**, **GSAP**, and **Three.js** features. This site highlights my work as a Full-Stack Developer, IT Instructor, and AI Automation specialist.
 
-## 🚨 Forking this repo (please read!)
+## ✨ Features
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+- **Interactive 3D Skill Cloud**: A geodesic sphere of technical skills synced with mouse movement.
+- **Webby-Nominee Inspired Contact Section**: Immersive tunnel animation with a dynamic "Email Me" badge.
+- **Theme Awareness**: Full support for Dark and Light modes with coordinated particle backgrounds.
+- **Performance Optimized**: Built using Next.js 14, Lenis for smooth scrolling, and optimized asset loading.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## 🛠 Tech Stack
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Next.js docs](https://nextjs.org/docs).
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [GSAP](https://greensock.com/gsap/), [Framer Motion](https://www.framer.com/motion/)
+- **Interactive UI**: [React Icon Cloud](https://github.com/tony-shertila/react-icon-cloud), [Canvas API]
+- **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
 
-If you like my work, give it a star⭐.
+## 🚀 Installation & Set Up
 
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [tajmirul.site](https://tajmirul.site/). Thanks!
-
-## 🛠 Installation & Set Up
-
-First, run the development server:
+First, install the dependencies and run the development server:
 
 ```bash
+npm install
+# or
 pnpm install
+
+npm run dev
+# or
 pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🤝 Contributing
-If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
+## 🤝 Contact
 
-## Credit
-_This readme is inspired from [Brittany Chiang's github](https://github.com/bchiang7/v4)_
+Feel free to reach out for collaborations or inquiries:
+- **Email**: sohrabalefi99@gmail.com
+- **LinkedIn**: [sohrabalefi](https://www.linkedin.com/in/sohrabalefi)
+- **GitHub**: [sohrabansari990](https://github.com/sohrabansari990)
 
 ## 📄 License
-This project is open source and available under the [MIT License](https://github.com/Tajmirul/portfolio-2.0/blob/main/LICENSE).
+This project is open source and available under the [MIT License](LICENSE).

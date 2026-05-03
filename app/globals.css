@@ -4,17 +4,23 @@
 
 @layer base {
     :root {
-        --background: 0 0% 13%;
-        --background-light: 0 0% 19%;
+        --background: 224 69% 3%;
+        --background-light: 219 70% 9%;
         --foreground: 0 0% 87%;
+
+        --site-bg: #02040b;
+        --dot-color: rgba(0, 119, 255, 0.2);
+        --dot-bright-color: rgba(0, 119, 255, 1);
+        --spot-color-1: rgba(0, 119, 255, 0.15);
+        --spot-color-2: rgba(0, 119, 255, 0.05);
 
         --card: 0 0% 3.9%;
         --card-foreground: 0 0% 98%;
         --popover: 0 0% 3.9%;
         --popover-foreground: 0 0% 98%;
 
-        --primary: 140 100% 47%;
-        --primary-foreground: 0 0% 13%;
+        --primary: 211 100% 50%;
+        --primary-foreground: 0 0% 100%;
         --secondary: 193 100% 47%;
         --secondary-foreground: 0 0% 13%;
         --muted: 0 0% 14.9%;
@@ -23,7 +29,7 @@
         --accent-foreground: 0 0% 98%;
         --destructive: 0 62.8% 30.6%;
         --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 24%;
+        --border: 214 72% 18%;
         --input: 0 0% 14.9%;
         --ring: 0 0% 83.1%;
         --chart-1: 220 70% 50%;
@@ -42,8 +48,22 @@
         @apply border-border !cursor-none;
     }
     body {
-        @apply bg-background text-foreground font-roboto-flex;
+        @apply bg-background text-foreground font-roboto-flex transition-colors duration-300;
     }
+}
+
+:root.high-contrast {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --site-bg: #ffffff;
+    --dot-color: rgba(0, 0, 0, 0.2);
+    --dot-bright-color: #000000;
+    --spot-color-1: rgba(0, 0, 0, 0.05);
+    --spot-color-2: rgba(0, 0, 0, 0.01);
+    --border: 0 0% 80%;
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 40%;
+    --high-contrast-overlay-opacity: 0.2;
 }
 
 @layer components {
@@ -53,5 +73,64 @@
 
     .markdown-text ul {
         @apply pl-5 mt-2 list-disc;
+    }
+
+    .hero-word {
+        text-shadow: 0 0 0 rgba(0, 119, 255, 0);
+    }
+
+    .group\/hero:hover .hero-word:nth-child(1) {
+        transform: translateX(0.04em) skewX(-2deg);
+        text-shadow: 0.025em 0.015em 0 rgba(0, 119, 255, 0.35);
+    }
+
+    .group\/hero:hover .hero-word:nth-child(2) {
+        transform: translateX(-0.025em) skewX(2deg);
+        text-shadow: -0.025em 0.015em 0 rgba(0, 119, 255, 0.3);
+    }
+
+    .group\/hero:hover .hero-word:nth-child(3) {
+        transform: translateX(0.02em) skewX(-1deg);
+        text-shadow: 0.02em -0.015em 0 rgba(0, 119, 255, 0.28);
+    }
+}
+
+@keyframes status-roll {
+    0%,
+    12% {
+        transform: translateY(0);
+    }
+    20%,
+    32% {
+        transform: translateY(-1.35em);
+    }
+    40%,
+    52% {
+        transform: translateY(-2.7em);
+    }
+    60%,
+    72% {
+        transform: translateY(-4.05em);
+    }
+    80%,
+    92% {
+        transform: translateY(-5.4em);
+    }
+    100% {
+        transform: translateY(-6.75em);
+    }
+}
+
+@layer utilities {
+    .animate-status-roll {
+        animation: status-roll 9s steps(1, end) infinite;
+    }
+
+    @keyframes aura-glow {
+        0% { background-position: 0 100%; }
+        100% { background-position: 0 300%; }
+    }
+    .animate-aura-glow {
+        animation: aura-glow 8s infinite linear;
     }
 }

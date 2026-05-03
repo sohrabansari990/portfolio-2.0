@@ -1,20 +1,39 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'sohrabalefi99@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Sohrab, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    oldPortfolio: 'https://sohrabalefi.me',
+    upworkProfile: 'https://github.com/sohrabansari990',
+    github: 'https://github.com/sohrabansari990',
+    linkedin: 'https://www.linkedin.com/in/sohrabalefi',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'github', url: GENERAL_INFO.github },
+    { name: 'linkedin', url: GENERAL_INFO.linkedin },
+    { name: 'email', url: `mailto:${GENERAL_INFO.email}` },
+];
+
+export const CERTIFICATES = [
+    {
+        title: 'Full Stack Development',
+        issuer: 'Professional Certificate',
+        image: '/certificates/sohrab alefi cert full stack.png',
+    },
+    {
+        title: 'Microsoft Azure',
+        issuer: 'Cloud Certificate',
+        image: '/certificates/sohrab azure cert.png',
+    },
+    {
+        title: 'SQL',
+        issuer: 'Database Certificate',
+        image: '/certificates/sql sohrab alefi.png',
+    },
 ];
 
 export const MY_STACK = {
@@ -109,6 +128,46 @@ export const MY_STACK = {
 };
 
 export const PROJECTS: IProject[] = [
+    {
+        title: 'Saqib.watch',
+        slug: 'saqib-watch',
+        liveUrl: 'https://saqib.watch/',
+        sourceCode: GENERAL_INFO.github,
+        year: 2026,
+        description: `Saqib.watch is a startup product I built as a co-founder, focused on turning a focused product idea into a real, usable web platform. The work covered product thinking, frontend implementation, backend integration, and launch-ready polish.`,
+        role: `Co-founder and builder<br/>
+        - Shaped the product experience and technical direction.<br/>
+        - Built the web interface and connected the core product workflows.<br/>
+        - Balanced speed, usability, and maintainability while moving from idea to live product.`,
+        techStack: ['Next.js', 'React', 'Tailwind CSS', 'Product Strategy'],
+        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
+        longThumbnail: '/projects/long/resume-roaster.jpg',
+        images: [
+            '/projects/images/resume-roaster-1.png',
+            '/projects/images/resume-roaster-2.png',
+            '/projects/images/resume-roaster-3.png',
+        ],
+    },
+    {
+        title: 'AI Automation Systems',
+        slug: 'ai-automation-systems',
+        liveUrl: GENERAL_INFO.github,
+        sourceCode: GENERAL_INFO.github,
+        year: 2025,
+        description: `Freelance AI automation work focused on reducing repetitive operations, connecting tools, and building practical workflows that help teams move faster without adding extra manual work.`,
+        role: `AI automation freelancer<br/>
+        - Designed automations around real business processes.<br/>
+        - Integrated APIs, scripts, and web tooling into reliable workflows.<br/>
+        - Delivered lightweight systems that are easy for clients to understand and maintain.`,
+        techStack: ['AI Automation', 'API Integration', 'Next.js', 'Node.js'],
+        thumbnail: '/projects/thumbnail/devLinks.jpg',
+        longThumbnail: '/projects/long/devLinks.jpg',
+        images: [
+            '/projects/images/devLinks-1.png',
+            '/projects/images/devLinks-2.png',
+            '/projects/images/devLinks-3.png',
+        ],
+    },
     {
         title: 'Electro EV',
         slug: 'electro-ev',
@@ -286,23 +345,23 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
+        title: 'IT Instructor',
+        company: 'Teaching Networking, Programming (Python), Office 365, and Video Editing',
+        duration: '2.5+ years',
     },
     {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
+        title: 'AI Automation Freelancer',
+        company: 'Automation systems for clients and business workflows',
+        duration: 'Freelance',
     },
     {
-        title: 'Frontend Engineer',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
+        title: 'Startup Co-Founder',
+        company: 'Saqib.watch',
+        duration: 'Built and launched product experience',
     },
     {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
+        title: 'Full-Stack Developer',
+        company: 'Web applications, dashboards, and product builds',
+        duration: 'Project based',
     },
 ];
