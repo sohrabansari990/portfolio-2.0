@@ -116,7 +116,7 @@ const ProjectList = () => {
                         >
                             {PROJECTS.map((project) => (
                                 <Image
-                                    src={project.thumbnail}
+                                    src={project.longThumbnail}
                                     alt="Project"
                                     width="400"
                                     height="500"

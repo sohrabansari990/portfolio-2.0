@@ -134,212 +134,95 @@ export const PROJECTS: IProject[] = [
         liveUrl: 'https://saqib.watch/',
         sourceCode: GENERAL_INFO.github,
         year: 2026,
-        description: `Saqib.watch is a startup product I built as a co-founder, focused on turning a focused product idea into a real, usable web platform. The work covered product thinking, frontend implementation, backend integration, and launch-ready polish.`,
+        description: `Saqib.watch turns a focused product idea into a polished web platform people can actually use. It helps move the product from concept to market with a clear experience, fast flows, and practical launch readiness.`,
         role: `Co-founder and builder<br/>
-        - Shaped the product experience and technical direction.<br/>
-        - Built the web interface and connected the core product workflows.<br/>
-        - Balanced speed, usability, and maintainability while moving from idea to live product.`,
-        techStack: ['Next.js', 'React', 'Tailwind CSS', 'Product Strategy'],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
+        - Shaped the product direction and user experience.<br/>
+        - Built the interface and connected the core workflows.<br/>
+        - Kept the build practical, maintainable, and ready for real users.`,
+        techStack: ['Next.js', 'React', 'Tailwind CSS'],
+        thumbnail: '/projects/thumbnail/saqib-long.png',
+        longThumbnail: '/projects/long/saqib-long.png',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/saqib.watch-1.png',
+            '/projects/images/saqib.watch-2.png',
+            '/projects/images/saqib.watch-3.png',
         ],
     },
     {
-        title: 'AI Automation Systems',
-        slug: 'ai-automation-systems',
-        liveUrl: GENERAL_INFO.github,
-        sourceCode: GENERAL_INFO.github,
+        title: 'LMS',
+        slug: 'lms',
+        liveUrl: 'https://learning-management-system12.netlify.app/',
+        sourceCode: 'https://github.com/sohrabansari990/LMS',
         year: 2025,
-        description: `Freelance AI automation work focused on reducing repetitive operations, connecting tools, and building practical workflows that help teams move faster without adding extra manual work.`,
-        role: `AI automation freelancer<br/>
-        - Designed automations around real business processes.<br/>
-        - Integrated APIs, scripts, and web tooling into reliable workflows.<br/>
-        - Delivered lightweight systems that are easy for clients to understand and maintain.`,
-        techStack: ['AI Automation', 'API Integration', 'Next.js', 'Node.js'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
+        description: `A learning platform that separates admin, instructor, and student workflows so courses are easier to publish, approve, and consume. It reduces the operational friction around managing learners, roles, and course material in one place.`,
+        role: `Full-stack developer<br/>
+        - Built role-based flows for admins, instructors, and students.<br/>
+        - Connected authentication, course management, and backend data handling.<br/>
+        - Focused on making the platform usable for both learning and administration.`,
+        techStack: ['React', 'Express', 'MongoDB', 'Firebase'],
+        thumbnail: '/projects/thumbnail/LMS.png',
+        longThumbnail: '/projects/long/LMS.png',
         images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
+            '/projects/images/lms-1.png',
+            '/projects/images/lms-2.png',
         ],
     },
     {
-        title: 'Electro EV',
-        slug: 'electro-ev',
-        liveUrl: 'https://electroev.co.uk/',
+        title: 'Gemini Clone',
+        slug: 'gemini-clone',
+        liveUrl: 'https://gemini-clone-2025.netlify.app/',
+        sourceCode: 'https://github.com/sohrabansari990/Gemini_clone',
         year: 2025,
-        description: `
-      A complete agency portfolio platform built for Electro EV to showcase their services, blog content, and product offerings. <br/> <br/>
-      
-      Key Features:<br/>
-      <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
-      </ul><br/>
-      
-      Technical Highlights:
-      <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
-      </ul>
-      `,
-        role: `
-      Full-Stack Developer <br/>
-      Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-      </ul>
-      `,
-        techStack: [
-            'Next.js',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
-        ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
-        longThumbnail: '/projects/long/mti-electronics.webp',
+        description: `A Gemini-style AI assistant UI that gives users a clean way to ask questions, read formatted answers, and stay focused on the conversation. It solves the interface problem around AI tools: fast input, readable output, and a familiar chat experience.`,
+        role: `Frontend developer<br/>
+        - Built the chat experience and response presentation.<br/>
+        - Integrated Google's generative AI SDK.<br/>
+        - Added markdown rendering so answers are easier to scan and use.`,
+        techStack: ['React', 'Google GenAI', 'Markdown', 'Tailwind CSS'],
+        thumbnail: '/projects/thumbnail/gemini-clone.png',
+        longThumbnail: '/projects/long/gemini-clone.png',
+        images: ['/projects/images/gemini-clone.png'],
+    },
+    {
+        title: 'K72 Clone',
+        slug: 'k72-clone',
+        liveUrl: 'https://k72-clone1.netlify.app/',
+        sourceCode: 'https://github.com/sohrabansari990/k72_clone',
+        year: 2025,
+        description: `A motion-heavy agency site rebuild focused on translating a high-end visual brand into a smooth, responsive web experience. It helps show that complex animation and strong layout can stay usable without feeling overloaded.`,
+        role: `Frontend developer<br/>
+        - Recreated the visual system with responsive layouts and page transitions.<br/>
+        - Used animation deliberately to guide attention, not distract from content.<br/>
+        - Tuned interactions for a polished portfolio-grade experience.`,
+        techStack: ['React', 'GSAP', 'Motion', 'Tailwind CSS'],
+        thumbnail: '/projects/thumbnail/k72-clone.png',
+        longThumbnail: '/projects/long/k72-clone.png',
         images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
+            '/projects/images/k72-clone-1.png',
+            '/projects/images/k72-clone-2.png',
+            '/projects/images/k72-clone-3.png',
+            '/projects/images/k72-clone-4.png',
         ],
     },
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
-        techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
-        ],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
+        title: 'Dog Studio Clone',
+        slug: 'dog-studio-clone',
+        liveUrl: 'https://3rd-dog.netlify.app/',
+        sourceCode: 'https://github.com/sohrabansari990/dogStudio-clone',
+        year: 2025,
+        description: `A 3D studio landing experience that turns brand presentation into something interactive and memorable. It helps visitors understand the studio's personality quickly through motion, depth, and visual exploration.`,
+        role: `Frontend developer<br/>
+        - Built an immersive 3D-first web experience.<br/>
+        - Combined scroll, motion, and responsive layout into one smooth presentation.<br/>
+        - Kept performance and interaction quality in view while using WebGL elements.`,
+        techStack: ['React', 'Three.js', 'React Three Fiber', 'Tailwind CSS'],
+        thumbnail: '/projects/thumbnail/dogStudio-clone.png',
+        longThumbnail: '/projects/long/dogStudio-clone.png',
         images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/projects/images/dogStudio-clone-1.png',
+            '/projects/images/dogStudio-clone-2.png',
+            '/projects/images/dogStudio-clone-3.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
-    },
-    {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
-        techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
-        ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
-        images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
-        ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
-        year: 2023,
-        description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
-    },
-    {
-        title: 'Real Estate',
-        slug: 'property-pro',
-        techStack: [
-            'React.js',
-            'Redux',
-            'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
-        ],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
-        images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
-        ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
-        year: 2023,
-        description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
-    },
-    {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
-        year: 2023,
-        description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
-    },
-    {
-        title: 'devLinks',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
-        images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
-        year: 2023,
-        description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
-
-            I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
-        role: ``,
     },
 ];
 
