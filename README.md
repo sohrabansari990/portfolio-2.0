@@ -1,6 +1,8 @@
 # 🚀 Sohrab Alefi | Full-Stack Portfolio
 
-![Sohrab Alefi Portfolio](/public/portfolio-preview.png)
+
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/5f7a9803-9b52-48e1-884f-4c76783c7839" />
+
 
 A high-fidelity, interactive portfolio built with **Next.js**, **GSAP**, and **Three.js** features. This site highlights my work as a Full-Stack Developer, IT Instructor, and AI Automation specialist.
 
